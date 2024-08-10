@@ -14,7 +14,7 @@ export const App = () => {
 		const loadedImages: HTMLImageElement[] = []
 		for (let i = 1; i <= 250; i++) {
 			const img = new Image()
-			img.src = `/media/frames/${i}.webp`
+			img.src = `/media/frames/${i}.jpg`
 			loadedImages.push(img)
 		}
 		return loadedImages
@@ -124,8 +124,7 @@ export const App = () => {
 						position: 'sticky',
 						top: 0,
 						left: 0,
-						width: '100dvw',
-						height: '100dvh'
+						width: '100dvw'
 					}}
 				/>
 			</div>
